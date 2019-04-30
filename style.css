@@ -1,0 +1,32 @@
+body{
+	font-size: 45px;
+	font-family: "Microsoft YaHei"; 
+	background-color: #FCFCFC;
+}
+table{
+	width: 100%;
+	border-spacing: 0px 10px;
+}
+tr{
+
+	background-color: white;
+}
+td{
+	padding: 4px;
+	width: 50%;
+}
+p{
+	font-size: 25px
+}
+#highlight{
+	color: red; 
+}
+#footer{
+	width:100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+.key{
+	color: grey;
+}
