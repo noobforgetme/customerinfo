@@ -1,0 +1,177 @@
+#toolBar {
+	MARGIN-BOTTOM: 5px
+}
+BODY,html,input,select,textarea { font: 13px/150% "Microsoft YaHei"; padding:0; margin:0;}
+
+FORM {
+	MARGIN-TOP: 2px
+}
+#controlTb {
+	BACKGROUND-COLOR: #f6f8fa; BORDER-COLLAPSE: collapse; FONT-SIZE: 13px
+}
+/*内嵌iframe的TD样式*/
+.controlTDIframe{
+padding:0; border:0;
+}
+div.BreadcrumbHead{
+left:0;
+width:99.8%
+border: 1px solid #d1d2d2;
+background: url("platform/pages/imgs/common-bt-bg.png") bottom repeat-x #f9fbfb;
+}
+/*
+table.dhGridTable{
+margin-top:0px;
+}
+table.dhGridTable td{padding:0; border:0;}
+*/
+.controlTableTD {
+	BORDER-BOTTOM: #d0d0d0 1px solid; BORDER-LEFT: #d0d0d0 1px solid; 
+	BORDER-TOP: #d0d0d0 1px solid; 
+	BORDER-RIGHT: #d0d0d0 1px solid; padding:2px 7px 2px 8px;
+}
+.controlTableTDElse {
+	BORDER:0;  padding:0px; position:relative;
+}
+.controlTableTDElse 
+th.controlTableTD{background: url("platform/pages/imgs/block-info-head-bg.png") bottom repeat-x #fff;
+
+line-height: 1.15;
+border-top-width: 0;}
+
+.defaultIframe {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+/*mod by linfq 修改下边框没横线*/
+/*.paragraph{position: relative; border-collapse:separate; height: 35px; line-height: 35px; text-align: left; color: #3e5875; font-weight: bold; font-size: 16px; border-bottom:2px solid #3a6087;background:#fff; padding-top:5px;}*/
+.paragraph{vertical-align: bottom;border-collapse:separate; height: 31px; text-align: left; color: #3e5875; font-weight: bold; font-size: 16px; background:#fff;padding-bottom: 4px}
+.paragraph img{ float:left; margin:6px 6px 0 2px;}
+.paragraph input{ vertical-align: middle;}
+     
+.op_mouseover { background:#ecf2f2; color:#086084;}
+.op_mouseout {}
+.op_mousedown {
+	BORDER-BOTTOM: #dddddd 2px solid; BORDER-LEFT: #666666 1px solid; PADDING-LEFT: 4px; BORDER-TOP: #666666 1px solid; CURSOR: hand; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 1px; backgroud-color: #ffffff
+}
+.op_mouseup {
+	BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-TOP: #dddddd 1px solid; CURSOR: hand; BORDER-RIGHT: #666666 1px solid
+}
+INPUT {
+	BORDER: #abadb3 1px solid; height:auto; padding:3px 0; BACKGROUND-COLOR: #ffffff; line-height:normal;}
+select,textarea{BORDER:1px solid #abadb3; height:25px;}
+
+INPUT.radio{ border:0; line-height:normal; vertical-align:middle;}
+input.btn,
+input.s_button{cursor:pointer;width: 78px; height: 28px; border: 0; background: #0a5b85; color: #ffffff; text-align: center; font-size: 14px; border-radius: 3px; margin-left: 10px; padding: 1px 6px;}
+input.s_button_l{cursor:pointer;width: 98px; height: 28px; border: 0; background: #0a5b85; color: #ffffff; text-align: center; font-size: 14px; border-radius: 3px; margin-left: 10px; padding: 1px 6px;}
+input.s_button_wl{cursor:pointer;width: 150px; height: 28px; border: 0; background: #0a5b85; color: #ffffff; text-align: center; font-size: 14px; border-radius: 3px; margin-left: 10px; padding: 1px 6px;}
+input.btn_mouseover,input.input_mouseover{
+width: 78px; height: 28px; border: 0; background: #3c7c9f; color: #ffffff; text-align: center; font-size: 14px; border-radius: 3px; margin-left: 10px; padding: 1px 6px;
+cursor:pointer;
+}
+input.btn_mouseover:focus,input.input_mouseover:focus{background: #1170a6;
+}
+/*
+.s_button {
+	BORDER-BOTTOM: #24716b 1px solid; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+		StartColorStr=#ffffff, EndColorStr=#a8c4c8); BORDER-LEFT: #24716b 1px solid; HEIGHT: 22px; COLOR: black; FONT-SIZE: 12px; BORDER-TOP: #24716b 1px solid; CURSOR: hand; MARGIN-RIGHT: 4px; BORDER-RIGHT: #24716b 1px solid
+}
+.input_mouseover {
+	BORDER-BOTTOM: #24716b 1px solid; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+		StartColorStr=#ffffff, EndColorStr=#a1ebfa); BORDER-LEFT: #24716b 1px solid; HEIGHT: 24px; COLOR: black; FONT-SIZE: 12px; BORDER-TOP: #24716b 1px solid; CURSOR: hand; BORDER-RIGHT: #24716b 1px solid
+}
+*/
+.fs {
+	FONT-WEIGHT: bold
+}
+/*#BTNQUERY {
+	BACKGROUND-COLOR: #ecf6f4
+}
+
+#BTNSAVE {
+	BACKGROUND-COLOR: #ecf6f4
+}
+*/
+.floatTool {
+	Z-INDEX: 999; POSITION: absolute
+}
+.divRect {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BACKGROUND: #e0fafe; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+.minute {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 1px; LINE-HEIGHT: 20px; MARGIN: 1px; PADDING-LEFT: 1px; WIDTH: 20px; PADDING-RIGHT: 1px; BACKGROUND: #dee9ef; HEIGHT: 20px; CURSOR: hand; PADDING-TOP: 1px
+}
+.minuteSel {
+	BORDER-BOTTOM: green 1px solid; TEXT-ALIGN: center; BORDER-LEFT: green 1px solid; PADDING-BOTTOM: 1px; LINE-HEIGHT: 20px; MARGIN: 1px; PADDING-LEFT: 1px; WIDTH: 20px; PADDING-RIGHT: 1px; BACKGROUND: #dee9ef; HEIGHT: 20px; COLOR: blue; BORDER-TOP: green 1px solid; CURSOR: hand; BORDER-RIGHT: green 1px solid; PADDING-TOP: 1px
+}
+.minuteRect {
+	BORDER-BOTTOM: green 1px solid; TEXT-ALIGN: center; BORDER-LEFT: green 1px solid; LINE-HEIGHT: 21px; WIDTH: 28px; BORDER-TOP: green 1px solid; CURSOR: hand; BORDER-RIGHT: green 1px solid
+}
+.input_error {
+	BORDER-BOTTOM: red 1px solid; BORDER-LEFT: red 1px solid; BORDER-TOP: red 1px solid; BORDER-RIGHT: red 1px solid
+}
+DIV.error {
+	width:auto;PADDING-LEFT: 20px; BACKGROUND: url(cancel.png) no-repeat left 50%; FONT-SIZE: 11px; 
+}
+.watermark {
+	COLOR: #999 !important
+}
+
+
+.bubble-box{ 
+background:#fff; 
+width:200px; 
+margin-bottom:30px;
+position:absolute; 
+} 
+.bubble-box .wrap{ 
+background:#fbfdfe; 
+/* 修正IE6 */ 
+_position:relative; 
+_z-index:10; 
+} 
+/* arrow-effect */ 
+.arrow-top{ border-left:10px solid #da261d; border-top:10px solid #FFF; margin-left:30px;} 
+
+.arrow-top{ width:0px;} 
+.arrow-top .wrap{ font-family:"Microsoft Yahei",Arial,Helvetica;
+	border:3px solid #da261d;
+border-radius:4px;
+color:#da261d;
+width:150px; 
+padding:5px 5px 5px 5px; 
+margin-left:-40px;
+-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,.1);
+-moz-box-shadow: 1px 1px 4px rgba(0,0,0,.1);
+box-shadow: 1px 1px 4px rgba(0,0,0,.1); 
+} 
+
+ul.ztree {border: 1px solid #617775;background: #ffffff;height:240px;overflow-y:auto;overflow-x:hidden;}
+
+.selecttree{
+	background:#fff url(../../images/common/selecttree.png) no-repeat right;
+}
+
+.loading {
+    position: relative;
+    background-color: #FFF;
+    border: 1px solid #999;
+    border-radius: 6px;
+    outline: 0;
+    background-clip: padding-box;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform .15s ease-in-out, opacity .15s ease-in-out;
+    padding:5px;
+    position:absolute;
+    z-index:9999999;
+}
+.my-editable-field{
+	background-image: url(../../../images/button/icon/edit.png);
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+}
